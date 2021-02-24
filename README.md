@@ -14,15 +14,15 @@ Building a model to predict whether a customer would be interested in Vehicle In
 Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.
 
 **Variable	Definition**
-_id_ : Unique ID for the customer 
-_Gender_ : 	Gender of the customer
-_Age_ :	Age of the customer
-_Driving_License_	0 : Customer does not have DL, 1 : Customer already has DL
-_Region_Code_: 	Unique code for the region of the customer
-_Previously_Insured_	1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance
-_Vehicle_Age_ :	Age of the Vehicle
-_Vehicle_Damage_	1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
-_Annual_Premium_ :	The amount customer needs to pay as premium in the year
-_PolicySalesChannel_ :	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
-_Vintage_ :	Number of Days, Customer has been associated with the company
-_Response_	1 : Customer is interested, 0 : Customer is not interested
+**_id_** : Unique ID for the customer 
+**_Gender_** : 	Gender of the customer
+**_Age_** :	Age of the customer
+**_Driving_License_	0** : Customer does not have DL, 1 : Customer already has DL
+**_Region_Code_**: 	Unique code for the region of the customer
+**_Previously_Insured_	1** : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance
+**_Vehicle_Age_** :	Age of the Vehicle
+**_Vehicle_Damage_	1** : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+**_Annual_Premium_** :	The amount customer needs to pay as premium in the year
+**_PolicySalesChannel_** :	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+**_Vintage_** :	Number of Days, Customer has been associated with the company
+**_Response_**	1 : Customer is interested, 0 : Customer is not interested
